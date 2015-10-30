@@ -31,6 +31,10 @@ Example (use http://www.latlong.net/)
 <%= embed_google_maps('-20.262197', '-54.799805', '250', '250') %>
 ```
 
+## license
+
+See Mit license http://luizpicolo.mit-license.org/
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/google_maps_rails/fork )
