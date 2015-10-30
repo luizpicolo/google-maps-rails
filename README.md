@@ -1,6 +1,7 @@
 # GoogleMapsRails
 
 [![Gem Version](https://badge.fury.io/rb/google_maps_rails.svg)](https://badge.fury.io/rb/google_maps_rails)
+[![Build Status](https://travis-ci.org/luizpicolo/google-maps-rails.svg?branch=master)](https://travis-ci.org/luizpicolo/google-maps-rails)
 
 This is a simple library for embed google maps in your app rails
 
