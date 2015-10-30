@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Luiz Picolo"]
   spec.email         = ["luizpicolo@gmail.com"]
   spec.summary       = %q{Rails helper for embed Google Maps.}
-  spec.description   = s.summary
+  spec.description   = spec.summary
   spec.homepage      = "https://github.com/luizpicolo/google-maps-rails"
   spec.license       = "MIT"
 
