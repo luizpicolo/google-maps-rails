@@ -28,7 +28,7 @@ Add the code, and create attributes, in local where you want embed the map.
 | Attribute   | Type    | Default value |
 | ---         | ---     | ---           |
 | lat         | String  | nil           |
-| lat         | String  | nil           |
+| long        | String  | nil           |
 | address     | String  | nil           |
 | width       | String  | 500           |
 | height      | String  | 500           |
