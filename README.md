@@ -36,9 +36,11 @@ Add the code, and create attributes, in local where you want embed the map.
 ```ruby
 # Lat and Long
 embed_google_maps(lat: '-20.262197', long: '-54.799805')
+# => return: <iframe src='https://maps.google.com/maps?q=-20.262197,-54.799805&amp;output=embed' frameborder='0' style='border:0' width='250' height='250' allowfullscreen></iframe>
 
 # Address
-embed_google_maps(address: 'address name and number')
+embed_google_maps(address: 'address name and number, 5555')
+# => return: <iframe src='https://maps.google.com/maps?q=name%20address%2C%205555&amp;output=embed' frameborder='0' style='border:0' width='250' height='250' allowfullscreen></iframe>
 ```
 
 ## license
