@@ -23,15 +23,22 @@ Or install it yourself as:
 
 ## Usage
 
-Add the code in local where you want embed the map. Change params "LONG, LAT, WIDTH, HEIGHT"
+Add the code, and create attributes, in local where you want embed the map.
+
+| Attribute   | Type    | Default value |
+| ---         | ---     | ---           |
+| lat         | String  | nil           |
+| lat         | String  | nil           |
+| address     | String  | nil           |
+| width       | String  | 500           |
+| height      | String  | 500           |
 
 ```ruby
-<%= embed_google_maps(LONG, LAT, WIDTH, HEIGHT) %>
-```
-Example (use http://www.latlong.net/)
+# Lat and Long
+embed_google_maps(lat: '-20.262197', long: '-54.799805')
 
-```ruby
-<%= embed_google_maps('-20.262197', '-54.799805', '250', '250') %>
+# Address
+embed_google_maps(address: 'address name and number')
 ```
 
 ## license
